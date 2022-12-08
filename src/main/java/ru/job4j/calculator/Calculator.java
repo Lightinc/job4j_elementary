@@ -14,7 +14,7 @@ public class Calculator {
                 + div(first, second);
     }
 
-    public static double Sum(double first, double second) {
+    public static double allSum(double first, double second) {
         return sumAndMultiply(first, second)
                 + diffAndDiv(first, second);
     }
@@ -22,6 +22,7 @@ public class Calculator {
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + diffAndDiv(10, 20));
-        System.out.println("Результат расчета равен: " + Sum(10, 20));
+        System.out.println("Результат расчета равен: " + allSum(10, 20));
     }
+
 }

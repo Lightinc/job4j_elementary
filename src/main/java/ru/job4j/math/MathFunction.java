@@ -17,7 +17,4 @@ public class MathFunction {
     public static double div(double first, double second) {
         return first / second;
     }
-
-
-
 }
