@@ -23,7 +23,7 @@ public class Converter {
         float expected = 3;
         float out = Converter.rubleToEuro(in);
         boolean passed = expected == out;
-        System.out.println("210 rubles are 3. Test result : " + passed);
+        System.out.println(in + " rubles are " + expected + ". Test result : " + passed);
 
         in = 180;
         expected = 3;
