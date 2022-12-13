@@ -7,7 +7,7 @@ public class Max {
     }
 
     public static void main(String[] args) {
-        int rsl = max(19, 12);
+        int rsl = max(9, 12);
         System.out.println(rsl);
     }
 }

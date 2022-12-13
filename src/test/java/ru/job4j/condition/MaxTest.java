@@ -9,7 +9,7 @@ public class MaxTest {
         int left = 9;
         int right = 12;
         int result = Max.max(left, right);
-        int expected = 19;
+        int expected = 12;
         assertThat(result).isEqualTo(expected);
     }
 
