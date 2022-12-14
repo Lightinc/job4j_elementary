@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class DivideBySixTest {
     @Test
-    public void whenNumberDivideBy6() {
+    public void whenNumberDivideBy3() {
         int in = 24;
         String result = DivideBySix.checkNumber(in);
         String expected = "The number divides by 6.";
@@ -36,3 +36,4 @@ public class DivideBySixTest {
         assertThat(result).isEqualTo(expected);
     }
 }
+//
