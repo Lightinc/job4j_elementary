@@ -15,10 +15,10 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP10K3dot5Square4dot32() {
-        double expected = 4.32;
+    public void whenP10K3dot5Square3dot71() {
+        double expected = 3.71;
         int p = 10;
-        double k = 3.5;
+        double k = 4.5;
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
