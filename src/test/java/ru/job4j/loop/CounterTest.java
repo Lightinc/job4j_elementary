@@ -32,9 +32,9 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumEvenNumbersFrom3To4Then4() {
+    public void whenSumEvenNumbersFrom3To5Then4() {
         int start = 3;
-        int finish = 4;
+        int finish = 5;
         int result = Counter.sumByEven(start, finish);
         int expected = 4;
         assertThat(result).isEqualTo(expected);
