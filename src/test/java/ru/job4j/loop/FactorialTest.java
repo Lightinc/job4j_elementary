@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class FactorialTest {
     @Test
-    public void whenCalculateFactorialForFiveThenOneHundredTwenty() {
+    public void whenCalculateFactorialFor5Then120() {
         int expected = 120;
         int n = 5;
         int out = Factorial.calc(n);
@@ -13,7 +13,7 @@ public class FactorialTest {
     }
 
     @Test
-    public void whenCalculateFactorialForZeroThenOne() {
+    public void whenCalculateFactorialFor0Then1() {
         int expected = 1;
         int n = 0;
         int out = Factorial.calc(n);
